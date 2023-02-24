@@ -1,0 +1,37 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,61,21)
+  Font = Font["12"]
+  Text = ("DVDEject")
+  Icon = Picture["dvdeject.png"]
+  Resizable = False
+  { Label1 Label
+    MoveScaled(12,2,36,4)
+    Font = Font["Bold"]
+    Alignment = Align.Center
+    Text = ("Selecione uma opção")
+  }
+  { btnAbrir Button
+    MoveScaled(11,8,19,5)
+    Text = ("Abrir")
+  }
+  { btnFechar Button
+    MoveScaled(31,8,19,5)
+    Text = ("Fechar")
+  }
+  { Panel1 Panel
+    MoveScaled(1,8,59,5)
+    Visible = False
+    Background = Color.LightGray
+    { lblInfo Label
+      MoveScaled(1,0,57,5)
+      Font = Font["10"]
+      Alignment = Align.Center
+    }
+  }
+  { btnSobre Button
+    MoveScaled(23,16,16,4)
+    Text = ("Sobre")
+  }
+}

@@ -1,0 +1,24 @@
+# Gambas Project File 3.0
+Title=DVDEject
+Startup=FMain
+Icon=dvdeject.png
+Version=0.0.2
+Component=gb.image
+Component=gb.gtk3
+Component=gb.form
+Description="Abre e fecha a gaveta do leitor e gravador de CD/DVD."
+Authors="Murilo Gomes <contatoprofmugomes@gmail.com>"
+TabSize=2
+Language=pt_BR
+Maintainer=Murilo Gomes
+Vendor=MG
+VendorPrefix=MG
+Address=contatoprofmugomes@gmail.com
+Url=profmugomes.blogspot.com
+License=General Public License
+PackageName=dvdeject-0.0.2
+Packager=1
+Systems=ubuntu
+Menus=ubuntu:"Applications/System/Hardware"
+Categories=ubuntu:"System"
+Groups=ubuntu:"utils"

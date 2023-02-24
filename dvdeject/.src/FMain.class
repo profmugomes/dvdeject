@@ -1,0 +1,33 @@
+' Gambas class file
+
+'phpapp
+'Author Murilo Gomes <contatoprofmugomes@gmail.com>
+'Copyright (c) 2023 Murilo Gomes
+'License GPL-2.0
+'Version 1.0.0, 2023-02-20
+
+Public Sub btnAbrir_Click()
+  lblInfo.Text = "Abrindo gaveta do leitor/gravador de CD/DVD... Aguarde!"
+  Panel1.Visible = True 
+  Wait 1
+  Shell "eject sr0" Wait 
+  Wait 1
+  Panel1.Visible = False
+End
+
+Public Sub btnFechar_Click()
+  lblInfo.Text = "Fechando gaveta do leitor/gravador de CD/DVD... Aguarde!"
+  Panel1.Visible = True 
+  Wait 1
+  Shell "eject -t sr0" Wait
+  Wait 1
+  Panel1.Visible = False
+End
+
+Public Sub btnSobre_Click()
+  FAbout.Show()
+End
+
+Public Sub Form_Close()
+  Quit 
+End
