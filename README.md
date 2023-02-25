@@ -1,4 +1,4 @@
-# dvdeject
+# DVDEject
 
 Com o DVDEject você pode abrir e fechar o leitor e gravador do CD/DVD com um clique, ideal para gabinetes que impedem o fechamento correto por impedirem o acesso ao botão do leitor e gravador.
 
