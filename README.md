@@ -2,12 +2,12 @@
 
 Com o DVDEject você pode abrir e fechar o leitor e gravador do CD/DVD com um clique, ideal para gabinetes que impedem o fechamento correto por impedirem o acesso ao botão do leitor e gravador.
 
-##Requerimento
+## Requerimento
 
 - Sistema Operacional: GNU/Linux Ubuntu e distribuições baseadas no mesmo
 - Repositório do Gambas3
 
-##Instalação
+## Instalação
 
 - Ative o repositório do Gambas3 usando os comandos:
 
